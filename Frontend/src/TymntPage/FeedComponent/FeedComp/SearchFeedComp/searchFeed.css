@@ -1,0 +1,66 @@
+.tasks-container{
+  padding:5px 20px;
+  margin-top: 10px;
+}
+
+/* Search Bar */
+
+.search-box{
+  display:flex;
+  align-items:center;
+  background:white;
+  border-radius:20px;
+  padding:10px 15px;
+}
+
+.search-icon{
+  font-size:18px;
+  color:#888;
+  margin-right:8px;
+}
+
+.search-box input{
+  border:none;
+  background:transparent;
+  outline:none;
+  width:100%;
+  font-size:15px;
+}
+
+/* Category Buttons */
+
+.category-list{
+  display:flex;
+  gap:10px;
+  margin-top:15px;
+  overflow-x:auto;        
+  white-space:nowrap;     
+  scrollbar-width:none;   
+}
+
+.category-list::-webkit-scrollbar{
+  display:none;       
+}
+
+.category-list button{
+  flex-shrink:0;        
+  border:none;
+  background:white;
+  padding:8px 15px;
+  border-radius:12px;
+  font-size:13px;
+  cursor:pointer;
+}
+
+/* Active button
+.category-list button.active{
+  background:#1e6dfb;
+  color:white;
+} */
+
+/* Hover effect */
+.category-list button:not(.active):hover{
+  background: #1e6dfb;
+  color:white;
+  transition:0.2s;
+}

@@ -1,0 +1,108 @@
+.home-skeleton{
+  padding:16px;
+}
+
+.sk-banner{
+  height:160px;
+  border-radius:14px;
+  margin-bottom:15px;
+  background:linear-gradient(
+    90deg,
+    #eeeeee 25%,
+    #f6f6f6 37%,
+    #eeeeee 63%
+  );
+  background-size:400% 100%;
+  animation: shimmer 1.4s infinite;
+}
+
+.sk-search{
+  height:45px;
+  border-radius:25px;
+  margin-bottom:15px;
+  background:#eee;
+  animation: shimmer 1.4s infinite;
+}
+
+.sk-categories{
+  display:flex;
+  gap:10px;
+  margin-bottom:15px;
+}
+
+.sk-chip{
+  width:90px;
+  height:35px;
+  border-radius:20px;
+  background:#eee;
+  animation: shimmer 1.4s infinite;
+}
+
+.sk-card{
+  background:#fff;
+  padding:16px;
+  border-radius:16px;
+  box-shadow:0 3px 10px rgba(0,0,0,0.06);
+}
+
+.sk-header{
+  display:flex;
+  gap:10px;
+  margin-bottom:12px;
+}
+
+.sk-avatar{
+  width:45px;
+  height:45px;
+  border-radius:50%;
+  background:#eee;
+}
+
+.sk-user-text{
+  flex:1;
+}
+
+.sk-line{
+  height:12px;
+  background:#eee;
+  border-radius:6px;
+  margin-bottom:8px;
+}
+
+.title{
+  width:60%;
+}
+
+.subtitle{
+  width:40%;
+}
+
+.text{
+  width:100%;
+}
+
+.short{
+  width:80%;
+}
+
+.sk-tags{
+  display:flex;
+  gap:10px;
+  margin-top:10px;
+}
+
+.sk-tag{
+  width:90px;
+  height:22px;
+  border-radius:12px;
+  background:#eee;
+}
+
+@keyframes shimmer{
+  0%{
+    background-position:-400px 0;
+  }
+  100%{
+    background-position:400px 0;
+  }
+}

@@ -1,0 +1,51 @@
+.App{
+    background-color: white;
+    /* box-shadow: 1px 1px 5px black; */
+    width: 290px;
+    margin: 0 auto;
+    padding: 0 10px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+.App h2{
+    padding-top: 15px;
+    text-align: center;
+}
+
+.form{
+    padding: 5px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form label input{
+    width: 100%; 
+    border-radius: 5px;
+    padding: 10px;
+    outline: none;
+}
+
+.validationlist{
+    margin: 0px 5px 5px 5px;
+    width: 280px;
+    list-style: none;
+    padding: 5px 10px;
+    border: 1px solid #a79f9f;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.validationlist li{
+    margin: 5px 0;
+    font-size: 13px;
+}
+
+.green{
+    color: rgb(0, 207, 0);
+}
+
+.red{
+    color: red;
+}
